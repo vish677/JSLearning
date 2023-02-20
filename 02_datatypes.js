@@ -75,3 +75,20 @@ console.log("typeof city is:",typeof city);
 
 age = null;
 console.log(typeof age);
+
+console.log("Swapping variables");
+ var num1 = 100;
+ var num2 = 200;
+ var temp = num1;
+ num1 = num2;
+ num2 = temp;
+ console.log(num1, num2);
+
+
+console.log("Swapping variables");
+ var s1 = "ABC";
+ var s2 = "XYZ";
+ var temp = s1;
+ s1 = s2;
+ s2 = temp;
+ console.log(s1, s2);
