@@ -33,7 +33,7 @@ function checkEvenOdd (num){
     vote(40);
     
     function string(params) {
-        if (params >= 10){
+        if (params = 10){
             console.log("yes"); 
         }
        
